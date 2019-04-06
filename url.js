@@ -32,6 +32,10 @@ exports.format = urlFormat;
 exports.Url = Url;
 exports.URL = Url;
 
+function URL(urlString) {
+  return urlParse(urlString);
+}
+
 function Url() {
   this.protocol = null;
   this.slashes = null;
