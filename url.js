@@ -30,7 +30,7 @@ exports.resolveObject = urlResolveObject;
 exports.format = urlFormat;
 
 exports.Url = Url;
-exports.URL = Url;
+exports.URL = URL;
 
 function URL(urlString) {
   return urlParse(urlString);
